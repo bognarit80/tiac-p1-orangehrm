@@ -130,6 +130,6 @@ dist
 .pnp.*
 
 # Cypress media
-.cypress/screenshots
-.cypress/videos
-.cypress/reports
+.cypress/screenshots/
+.cypress/videos/
+.cypress/reports/
