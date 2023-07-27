@@ -1,0 +1,13 @@
+{
+  "credentials": {
+    "admin_username": "Admin",
+    "admin_password": "admin123"
+  },
+  "url": "https://opensource-demo.orangehrmlive.com",
+  "endpoints": {
+    "login": "/web/index.php/auth/login",
+    "logout": "/web/index.php/auth/logout",
+    "employee_search": "/web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&employeeId=0314&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC"
+  },
+  "invalid_cred_txt": "Invalid credentials"
+}
